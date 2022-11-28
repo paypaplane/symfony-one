@@ -14,7 +14,7 @@
         "files": ["autoload.php"]
     },
     "suggest": {
-        "paypaplane/doctrine1": "Doctrine plugin",
+        "paypaplane/doctrine1": "Doctrine plugin"
     },
     "extra": {
         "branch-alias": {
