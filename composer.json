@@ -1,5 +1,5 @@
 {
-    "name": "friendsofsymfony1/symfony1",
+    "name": "paypaplane/symfony-one",
     "description": "Fork of symfony 1.4 with dic, form enhancements, latest swiftmailer and better performance",
     "type": "library",
     "license": "MIT",
@@ -14,9 +14,7 @@
         "files": ["autoload.php"]
     },
     "suggest": {
-        "friendsofsymfony1/doctrine1": "Doctrine plugin",
-        "propel/sf-propel-o-r-m-plugin": "Propel plugin",
-        "psr/log": "Psr logger"
+        "paypaplane/doctrine1": "Doctrine plugin",
     },
     "extra": {
         "branch-alias": {
