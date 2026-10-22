@@ -4,8 +4,7 @@
     "type": "library",
     "license": "MIT",
     "require": {
-        "php" : ">=5.3.0",
-        "swiftmailer/swiftmailer": "~5.2 || ^6.0"
+        "php" : ">=5.3.0"
     },
     "require-dev": {
         "psr/log": "*"
@@ -14,7 +13,8 @@
         "files": ["autoload.php"]
     },
     "suggest": {
-        "paypaplane/doctrine1": "Doctrine plugin"
+        "paypaplane/doctrine1": "Doctrine plugin",
+        "swiftmailer/swiftmailer": "Required by sfMailer, which extends Swift_Mailer"
     },
     "extra": {
         "branch-alias": {
